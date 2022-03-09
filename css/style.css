@@ -1,0 +1,83 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+header,section{
+    overflow-x: hidden;
+}
+:root{
+    --snigle-font:"Sniglet", cursive;
+    --Rubik:"Rubik", cursive;
+    --Patua:"Patua One", cursive;
+    --Lobster:"Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bg-gradient:linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255,255,255, 0.9);
+}
+
+header a{
+    font-family:var(--snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: #dd2476;
+    background:var(--bg-gradient);
+    height: 100vh;
+}
+.dropdown-content{
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.dropdown-menu li a:hover{
+   background-color: #ddd;
+}
+
+header .nav-item:last-child{
+    padding-right: 10em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+}
+header .nav-link{
+    color: #fff;
+}
+header .nav-link:hover{
+    color: black;
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+header .row .col-md-7{
+    margin-top: 12rem;
+    padding: 5rem;
+    color: var(--light-gray);
+}
+header .row .col-md-7 h6{
+   letter-spacing: 4px;
+}
+header .row .col-md-7 h1{
+    font-size: 5rem;
+ }
+ header .row .col-md-7 p{
+    font-size: 1.2rem;
+ }
+.section-1 .container .pray img{
+    opacity: 0.8;
+    width: 80%;
+}
+.section-1 .col-md-6{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.section-1{}
